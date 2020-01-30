@@ -1,7 +1,7 @@
 package main
 import (
         "fmt"
-        redfish "github.com/Nordix/go-redfish/client"
+        redfish "opendev.org/airship/go-redfish/client"
         "context"
         "net/http"
         "crypto/tls"
