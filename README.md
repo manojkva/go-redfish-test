@@ -16,7 +16,7 @@ go install .
 * Make changes in go.mod to specify to the local directory
   Replace the path after ```=>``` to specify the local repo
 ```
-  replace github.com/Nordix/go-redfish/client => /home/ekuamaj/go/src/github.com/manojkva/go-redfish/client
+  replace opendev.org/airship/go-redfish/client => /home/ekuamaj/go/src/github.com/manojkva/go-redfish/client
  ```
  * Build the file using the following command within the test repo dir
   ```
